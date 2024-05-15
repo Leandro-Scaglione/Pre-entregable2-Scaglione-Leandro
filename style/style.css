@@ -141,3 +141,8 @@ footer ul li{
     background-color: rgba(31, 30, 30, 0.747);
     font-size: 14px;
 }
+
+p{
+    font-size: 25px;
+    margin: 20px;
+}
