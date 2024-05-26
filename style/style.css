@@ -98,6 +98,7 @@ p {
     background-color: rgba(39, 39, 39, 0.877);
     border-radius: 15px;
     text-align: center;
+    font-family: sedan;
 }
 
 #img-index {
@@ -214,15 +215,6 @@ main section ul li {
 }
 
 /* FOOTER */
-.footer-div-1 {
-    display: flex;
-    justify-content: center;
-}
-
-footer ul li {
-    font-family: italiano;
-    font-size: 25px;
-}
 
 .footer-div-a {
     color: aliceblue;
