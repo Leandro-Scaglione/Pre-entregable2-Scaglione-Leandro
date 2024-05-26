@@ -1,47 +1,52 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
 /* FONTS */
-@font-face{
+@font-face {
     font-family: "italiano";
     src: url(../fonts/Italianno/Italianno-Regular.ttf);
 }
-@font-face{
-        font-family: "bruno-ace";
-        src: url(../fonts/bruno-ace/BrunoAce-Regular.ttf);
-    }
-@font-face{
+
+@font-face {
+    font-family: "bruno-ace";
+    src: url(../fonts/bruno-ace/BrunoAce-Regular.ttf);
+}
+
+@font-face {
     font-family: "satisfy";
     src: url(../fonts/Satisfy/Satisfy-Regular.ttf);
-}        
-@font-face{
+}
+
+@font-face {
     font-family: "ultra";
     src: url(../fonts/ultra/Ultra-Regular.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: "sedan";
     src: url(../fonts/sedan/SedanSC-Regular.ttf);
 }
-        
+
 /* HEADER */
-#navbarNav{
+#navbarNav {
     justify-content: center;
 }
-.navbar-expand-lg .navbar-nav .nav-link{
+
+.navbar-expand-lg .navbar-nav .nav-link {
     margin-right: 50px;
     font-family: italiano;
     font-size: 25px;
 }
 
 /* BODY */
-body{
+body {
     background-image: url(../images/fondo-body-auzl.jpg);
 }
 
 /* MAIN */
-h1{
+h1 {
     color: aliceblue;
     text-align: center;
     justify-content: center;
@@ -49,33 +54,33 @@ h1{
     font-family: "ultra";
 }
 
-main{
+main {
     margin-top: 35px;
 }
-h2{
+
+h2 {
     color: red;
     font-family: bruno-ace;
     text-align: center;
 }
-.h2-tiro{
+
+.h2-tiro {
     padding: 0 70px;
 }
-p{
-    color:yellow;
-    font-family: sedan;
-    text-align: center;
-}
-main section div img{
+
+main section div img {
     width: 250px;
     height: auto;
 }
-.col{
+
+.col {
     text-align-last: center;
 }
-h3{
+
+h3 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
-    color:antiquewhite;
+    color: antiquewhite;
     background-color: black;
     padding: 4px;
     border: 1px solid rgba(85, 110, 247, 0.89);
@@ -84,25 +89,29 @@ h3{
     text-align: center;
     margin: auto;
 }
-p{
-    font-size: 25px;
+
+p {
+    font-size: 20px;
     margin: 20px;
     padding: 10px;
     color: aliceblue;
     background-color: rgba(39, 39, 39, 0.877);
     border-radius: 15px;
+    text-align: center;
 }
-#img-index{
+
+#img-index {
     border-radius: 15px;
     border: 4px solid blue;
 }
 
 /* MAIN NOSOTROS */
 
-.main-section-nosotros{
+.main-section-nosotros {
     margin: auto;
 }
-.conocenos-images{
+
+.conocenos-images {
     width: 150px;
     height: auto;
     margin: 5px;
@@ -110,11 +119,13 @@ p{
     padding: 4px;
     background-color: rgba(0, 0, 255, 0.74);
 }
+
 /* MAIN Galeria */
-.rounded-4{
+.rounded-4 {
     max-width: -webkit-fill-available;
 }
-.main-h2{
+
+.main-h2 {
     text-align: left;
     border: 1px solid rgba(0, 0, 255, 0.87);
     background-color: rgba(48, 47, 47, 0.788);
@@ -124,30 +135,112 @@ p{
     margin-top: 20px;
     font-size: 18px;
 }
+
+/* MAIN CONTACTANOS */
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+main section ul {
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+main section ul li {
+    margin: 10px;
+    text-align: center;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-container form input {
+    width: 95%;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 146);
+    padding: 3px;
+    margin: 2px;
+}
+
+.section-container form textarea {
+    width: 95%;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 146);
+    padding: 3px;
+    margin: 2px;
+}
+
+#enviar {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+/* MAIN SERVICIOS */
+.servicios-section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-left {
+    width: 80%;
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.div-right {
+    width: 80%;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+/* MEDIA */
+@media (max-width:768px){
+    .div-left{
+        align-self: center;
+    }
+    .div-right {
+        align-self: center;
+    }
+}
+
 /* FOOTER */
-.footer-div-1{
+.footer-div-1 {
     display: flex;
     justify-content: center;
 }
-footer ul li{
+
+footer ul li {
     font-family: italiano;
     font-size: 25px;
 }
-.footer-div-a{
+
+.footer-div-a {
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
     display: table-cell;
-}   
+}
 
 /* FOOTER NOSOTROS */
-.foo-container{
+.foo-container {
     text-align: center;
 }
-#foo-div-redes{
+
+#foo-div-redes {
     display: flex;
     justify-content: space-between;
 }
-.foo-div-a{
+
+.foo-div-a {
     color: aqua;
     text-decoration: none;
     border: 1px solid rgba(0, 255, 255, 0.466);
