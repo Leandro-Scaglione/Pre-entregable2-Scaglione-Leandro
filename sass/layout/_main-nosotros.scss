@@ -1,0 +1,22 @@
+// MAIN NOSOTROS
+// main{
+//      section{   
+
+.container {
+    .main-section-nosotros {
+        margin: auto;
+    }
+
+    section {
+        div {
+            .conocenos-images {
+                width: 150px;
+                height: auto;
+                margin: 8px;
+                border-radius: 15px;
+                background-color: rgba(0, 0, 255, 0.74);
+            }
+        }
+    }
+
+}

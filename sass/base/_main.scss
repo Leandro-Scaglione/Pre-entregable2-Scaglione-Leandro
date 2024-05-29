@@ -1,0 +1,43 @@
+// MAIN
+main {
+    margin-top: 35px;
+
+    h1 {
+        color: aliceblue;
+        text-align: center;
+        justify-content: center;
+        margin: 15px 0 30px 0;
+        font-family: "ultra";
+    }
+
+    h2 {
+        color: red;
+        font-family: bruno-ace;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        color: antiquewhite;
+        background-color: black;
+        padding: 4px;
+        border: 1px solid rgba(85, 110, 247, 0.89);
+        border-radius: 15px;
+        width: 230px;
+        text-align: center;
+        margin: auto;
+    }
+
+    p {
+        font-size: 20px;
+        margin: 20px;
+        padding: 10px;
+        color: aliceblue;
+        background-color: rgba(39, 39, 39, 0.877);
+        border-radius: 15px;
+        text-align: center;
+        font-family: sedan;
+    }
+
+}

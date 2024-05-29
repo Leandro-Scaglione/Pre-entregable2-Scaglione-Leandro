@@ -1,0 +1,20 @@
+// IMPORT
+
+//base
+
+@import "../sass/base/reset";
+@import "../sass/base/main";
+
+// layout
+
+@import "../sass/layout/header";
+@import "../sass/layout/footer";
+@import "../sass/layout/main-index";
+@import "../sass/layout/main-nosotros";
+@import "../sass/layout/main-galeria";
+@import "../sass/layout/main-contacto";
+@import "../sass/layout/main-servicios";
+
+// Media
+
+@import "../sass/layout/media768";

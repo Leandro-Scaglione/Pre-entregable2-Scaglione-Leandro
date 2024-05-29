@@ -1,0 +1,22 @@
+footer {
+    text-align: center;
+
+    #foo-div-redes {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div {
+        .foo-div-a {
+            font-family: Arial, Helvetica, sans-serif;
+            color: aqua;
+            text-decoration: none;
+            border: 1px solid rgba(0, 255, 255, 0.466);
+            border-radius: 5px;
+            padding: 5px;
+            background-color: rgba(31, 30, 30, 0.747);
+            font-size: 14px;
+            display: table-cell;
+        }
+    }
+}

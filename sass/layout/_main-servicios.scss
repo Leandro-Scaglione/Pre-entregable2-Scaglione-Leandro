@@ -1,0 +1,20 @@
+// MAIN SERVICOS
+
+main {
+    .servicios-section-container {
+        display: flex;
+        flex-direction: column;
+
+        .div-left {
+            width: 80%;
+            align-self: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .div-right {
+            width: 80%;
+            align-self: flex-end;
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+// RESET
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// BODY
+body {
+    background-image: url(../images/fondo-dark.png);
+}
+
+// FONTS
+@font-face {
+    font-family: "italiano";
+    src: url(../fonts/Italianno/Italianno-Regular.ttf);
+}
+
+@font-face {
+    font-family: "bruno-ace";
+    src: url(../fonts/bruno-ace/BrunoAce-Regular.ttf);
+}
+
+@font-face {
+    font-family: "satisfy";
+    src: url(../fonts/Satisfy/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: "ultra";
+    src: url(../fonts/ultra/Ultra-Regular.ttf);
+}
+
+@font-face {
+    font-family: "sedan";
+    src: url(../fonts/sedan/SedanSC-Regular.ttf);
+}

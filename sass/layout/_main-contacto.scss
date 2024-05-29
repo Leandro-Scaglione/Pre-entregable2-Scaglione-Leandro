@@ -1,0 +1,55 @@
+// MAIN CONTACTO
+
+main {
+    h4 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: antiquewhite;
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    section {
+        ul {
+            color: antiquewhite;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            list-style-type: none;
+            justify-content: center;
+
+            li {
+                margin: 10px;
+                text-align: center;
+            }
+        }
+    }
+
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        form {
+            input {
+                width: 95%;
+                border-radius: 5px;
+                border: 1px solid rgb(0, 0, 146);
+                padding: 3px;
+                margin: 2px;
+            }
+
+            textarea {
+                width: 95%;
+                border-radius: 5px;
+                border: 1px solid rgb(0, 0, 146);
+                padding: 3px;
+                margin: 2px;
+            }
+
+            #enviar {
+                width: 80px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
